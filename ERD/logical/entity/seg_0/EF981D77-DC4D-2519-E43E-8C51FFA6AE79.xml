@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF981D77-DC4D-2519-E43E-8C51FFA6AE79" name="CUSTOMER">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:48:07 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="A1CABD5E-AA6E-E36C-DC95-A3E1955071B9">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:48:21 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerFirstName" id="F2AD1066-685F-8518-0C81-06BAD3691D7F">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:48:26 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MembershipID" id="2BFE5B0C-39A2-F89C-DC78-FD09BC22D1A5">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:31:57 UTC</createdTime>
+<generatorID>97163CAC-7EEC-1E54-EB5D-0A0E1C956551</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<referedAttribute>FF07F8E5-3DBD-72DF-903F-AE72A289D808</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73698652-0936-03CE-A58D-88A5F51D42A6" name="CUSTOMER PK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:48:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1CABD5E-AA6E-E36C-DC95-A3E1955071B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99AB2D43-5C2D-8409-6678-349FEED8CFF7" name="MEMBERSHIP">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:42:20 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MembershipID" id="FF07F8E5-3DBD-72DF-903F-AE72A289D808">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:43:10 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MembershipType" id="A54F1DD6-EBD9-73A8-C19A-029D0C2C65A1">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:43:37 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerBenefits" id="0F863B02-2937-69D9-169C-3D7A82AD0387">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:43:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MemberLastName" id="F8E67ED2-4F59-8062-3EF3-854A2F745846">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:43:46 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MemberFirstName" id="AD61CCDA-BC4E-7F52-0055-C202970A481B">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:43:51 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MemberEmail" id="D8211FB7-2BEC-B7D9-9B53-781FFE5F4A53">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:44:01 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MemberPhoneNumber" id="BC5F8E4F-70E7-B7CF-F9A6-76AE7FB6109A">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:44:05 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MemberAddress" id="746F2FE8-DFEC-6A2D-84E1-68FE10033895">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:44:10 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LoyaltyPoints" id="053FB143-E63D-3944-A38A-3D98D1AAD8EF">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:44:16 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="329A2D8C-DA8D-49E5-9196-EDBE1383A439" name="MEMBERSHIP PK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:43:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF07F8E5-3DBD-72DF-903F-AE72A289D808</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

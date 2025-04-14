@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06EE063C-DAFE-8E05-0112-B477DED86E4E" name="SUPPLIER">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 02:06:46 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SupplierID" id="5DD5CB08-E4FA-16CF-CF83-8D5474C26C55">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 02:06:51 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SupplierName" id="D40F4557-CC5A-7521-DEBC-CE4109BB7D31">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 02:06:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SupplierContactNumber" id="97A67592-D7C3-73AB-21DC-25F7A771EBCF">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 02:07:02 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SupplierEmail" id="6833F160-6FBE-538D-F3F6-80CCF32A4FEF">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 02:07:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CompanyAddress" id="2B92295B-C9C2-2560-1709-C0DF28FFBF36">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 02:07:21 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66C930B7-8AC0-1738-7E66-7512C18A25C4" name="SUPPLIER PK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 02:06:55 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DD5CB08-E4FA-16CF-CF83-8D5474C26C55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

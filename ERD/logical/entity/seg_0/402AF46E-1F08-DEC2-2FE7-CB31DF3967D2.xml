@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="402AF46E-1F08-DEC2-2FE7-CB31DF3967D2" name="EMPLOYEES">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:59:24 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmployeeID" id="2146FC5C-1966-1487-0BEB-CDB130035424">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:59:30 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeFirstName" id="C5359040-F314-6062-1306-50DBC26B456F">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:59:33 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeLastName" id="DC81D674-28EA-8351-75C0-583103176908">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:59:40 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeEmail" id="355F5E3D-DA96-EE55-A210-78CFD56C3101">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:59:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeePhoneNumber" id="41A15DE7-C446-BAAC-DCAA-E7D9AA43988B">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:59:51 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="852E779D-3FDA-3A6C-A0BC-46D39B45A377">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 00:00:03 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JobID" id="E89AC5A2-2B7A-0A12-7810-ACD75926083A">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:35:44 UTC</createdTime>
+<generatorID>0472A5B1-987A-AEBC-ED67-C74511A8847A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<referedAttribute>9AD52B81-01CD-1921-A8B4-524228A1B885</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77D6BE46-2944-37EC-7D37-075DC3B42DD5" name="EMPLOYEES PK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 00:03:09 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2146FC5C-1966-1487-0BEB-CDB130035424</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

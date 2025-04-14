@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E01DA339-C035-180B-045C-9CE63647CC6D" name="SUPPLIER">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>06EE063C-DAFE-8E05-0112-B477DED86E4E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SupplierID" id="DC813273-A1B6-B005-3ADA-E82A309EF13A">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>5DD5CB08-E4FA-16CF-CF83-8D5474C26C55</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SupplierName" id="956C49E6-5466-9642-9B1C-27921F014213">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>D40F4557-CC5A-7521-DEBC-CE4109BB7D31</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SupplierContactNumber" id="A274FA63-FE49-3800-BD9D-6A9EBC834FC1">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>97A67592-D7C3-73AB-21DC-25F7A771EBCF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SupplierEmail" id="08211AAB-EB16-64D4-A0BC-FB692772D964">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>6833F160-6FBE-538D-F3F6-80CCF32A4FEF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CompanyAddress" id="A197896F-943E-2336-9A99-4E9FD97F1043">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>2B92295B-C9C2-2560-1709-C0DF28FFBF36</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B85C269C-A88A-5002-1A82-2DAF057CD14B" name="SUPPLIER_PK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>66C930B7-8AC0-1738-7E66-7512C18A25C4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC813273-A1B6-B005-3ADA-E82A309EF13A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

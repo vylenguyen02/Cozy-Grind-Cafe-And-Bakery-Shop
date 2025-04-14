@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25DF2A87-D41C-A520-2AA5-626ECB680CA3" name="ORDERDETAILS">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 00:00:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderDetailsID" id="8ECE76CF-4B9B-0F0F-A3F8-AAE60BE17A8A">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:22:27 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="8FD5B64E-A4E9-22A1-D11A-74F3E7DC7617">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 00:00:24 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderID" id="A0C66932-4C96-2D0A-E809-C033F8E48755">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:33:31 UTC</createdTime>
+<generatorID>A9C9C4C1-DF02-87F8-B707-76BB976A6A28</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<referedAttribute>FBC51F98-DF3E-2D9A-A07F-A9B8EA617F54</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductID" id="853FC93B-EDE6-22B9-A3D5-2F0AE76A3495">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:37:53 UTC</createdTime>
+<generatorID>E4F7B94E-DB6A-2779-7BB3-FB4C768AD367</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<referedAttribute>1C02A5A4-EB43-77AA-9128-4718DAD421F3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SupplierID" id="F913CF8A-061A-2F5C-058F-D6865E6CD90F">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:37:53 UTC</createdTime>
+<generatorID>E4F7B94E-DB6A-2779-7BB3-FB4C768AD367</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<referedAttribute>1FB07A9F-1739-4429-7918-F141A5715537</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="6A69B09F-0035-2AD1-8C71-22DA8775E803">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 21:31:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51B67B10-7CCB-61C8-063D-DFD887D85277" name="ORDERDETAILS PK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 00:01:19 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8ECE76CF-4B9B-0F0F-A3F8-AAE60BE17A8A</attributeRef>
+<attributeRef>A0C66932-4C96-2D0A-E809-C033F8E48755</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

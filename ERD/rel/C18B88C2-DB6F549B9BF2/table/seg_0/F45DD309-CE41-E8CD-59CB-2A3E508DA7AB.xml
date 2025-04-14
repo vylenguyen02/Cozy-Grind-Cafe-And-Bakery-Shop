@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F45DD309-CE41-E8CD-59CB-2A3E508DA7AB" name="CUSTOMER">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:06 UTC</createdTime>
+<generatorID>EF981D77-DC4D-2519-E43E-8C51FFA6AE79</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustomerID" id="B0F49CD8-47CE-DA96-A0A8-A7FA3DE8C3F7">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>A1CABD5E-AA6E-E36C-DC95-A3E1955071B9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerFirstName" id="FBEE2D42-A695-E5CE-2CF0-7822E1D15AEA">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>F2AD1066-685F-8518-0C81-06BAD3691D7F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBERSHIP_MembershipID" id="3A81530F-6CAD-268F-B215-F1477AA89D6D">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>2BFE5B0C-39A2-F89C-DC78-FD09BC22D1A5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBB9084F-5A93-B770-2DC1-83F65D24243B" referredColumn="25B64997-5A56-DCE3-D8A0-895E3852261F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89AB5F53-82EB-58B7-1AB8-6BC809B2B1F9" name="CUSTOMER_PK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>73698652-0936-03CE-A58D-88A5F51D42A6</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0F49CD8-47CE-DA96-A0A8-A7FA3DE8C3F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66821932-142B-CE41-6008-D9B95D6AF714" name="CUSTOMER_MEMBERSHIP_FK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:39:07 UTC</createdTime>
+<generatorID>97163CAC-7EEC-1E54-EB5D-0A0E1C956551</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A81530F-6CAD-268F-B215-F1477AA89D6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

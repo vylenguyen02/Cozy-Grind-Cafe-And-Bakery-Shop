@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLOYEE_ORDER" directorySegmentName="seg_0" id="0511FE43-11E1-EC4D-FDD1-422CD63188ED">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:33:05 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<sourcePk>77D6BE46-2944-37EC-7D37-075DC3B42DD5</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>takes</nameOnSource>
+<nameOnTarget>is taken by</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>402AF46E-1F08-DEC2-2FE7-CB31DF3967D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>66D2703D-8BD0-3701-BFF0-32E5D43CFB63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

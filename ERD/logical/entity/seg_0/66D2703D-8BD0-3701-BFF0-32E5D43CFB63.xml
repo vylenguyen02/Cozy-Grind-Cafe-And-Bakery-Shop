@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66D2703D-8BD0-3701-BFF0-32E5D43CFB63" name="ORDER">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:51:55 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OrderID" id="FBC51F98-DF3E-2D9A-A07F-A9B8EA617F54">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:52:01 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrderDate" id="E764CD7F-A04E-F63A-2772-50399BA875B3">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:52:09 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TotalAmount" id="6571FF61-7038-47EF-FA9B-570989671BC4">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:52:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentMethod" id="CCF3EF56-A590-81B9-C188-92D2DC5B0D1E">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:53:01 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="4601BF6E-D535-DD61-9E8F-54E04BF815AC">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:53:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="49F5A2E1-F031-B48C-38C8-99F06139EE4D">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:33:05 UTC</createdTime>
+<generatorID>0511FE43-11E1-EC4D-FDD1-422CD63188ED</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<referedAttribute>2146FC5C-1966-1487-0BEB-CDB130035424</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="0C34AC61-018F-063C-EF08-8B95DB6408FE">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 20:36:54 UTC</createdTime>
+<generatorID>F49C2F9C-6A63-E900-DB0D-FA0CDC3506C9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<referedAttribute>A1CABD5E-AA6E-E36C-DC95-A3E1955071B9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount" id="BC653E81-B028-1574-71C6-52C0874AC1F4">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-11 21:32:04 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B445CD99-9DA0-688E-6D08-C389CA613F75" name="ORDER PK">
+<createdBy>lev</createdBy>
+<createdTime>2025-04-10 23:52:08 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="C18B88C2-A4FC-1A72-E6C7-DB6F549B9BF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBC51F98-DF3E-2D9A-A07F-A9B8EA617F54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
